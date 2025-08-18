@@ -1,0 +1,1 @@
+rent=int(input("Enter the rent amount: "))
