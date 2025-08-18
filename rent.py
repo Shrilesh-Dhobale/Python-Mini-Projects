@@ -5,3 +5,7 @@ food=int(input("Enter the food expenses: "))
 persons=int(input("Enter the number of persons: "))
 
 total_electricity = electricity_units * electricity_rate
+
+total_expenses =(rent + total_electricity + food )// persons
+
+print("Total expenses per person: ", total_expenses)
