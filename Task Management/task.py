@@ -7,3 +7,6 @@ def task():
         task_name=input("Enter the name of the task: ")
         task.append(task_name)
     print("Tasks added successfully!")
+
+    while True:
+        option=int(input("Choose an option:\n1. Add Tasks\n2. Update Task\n3. Delete Task\n4. View Tasks\n5. Exit\n"))
