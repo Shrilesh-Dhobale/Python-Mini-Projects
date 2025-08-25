@@ -10,3 +10,7 @@ def task():
 
     while True:
         option=int(input("Choose an option:\n1. Add Tasks\n2. Update Task\n3. Delete Task\n4. View Tasks\n5. Exit\n"))
+        if option==1:
+            new_task=input("Enter the new task: ")
+            task.append(new_task)
+            print(f"Task '{new_task}' added successfully!")
