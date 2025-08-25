@@ -14,3 +14,6 @@ def task():
             new_task=input("Enter the new task: ")
             task.append(new_task)
             print(f"Task '{new_task}' added successfully!")
+        elif option==2:
+            update_task=input("Enter the task you want to update: ")
+            
