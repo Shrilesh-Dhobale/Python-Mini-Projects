@@ -1,1 +1,2 @@
 def task():
+    task=[]
