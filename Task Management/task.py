@@ -16,4 +16,8 @@ def task():
             print(f"Task '{new_task}' added successfully!")
         elif option==2:
             update_task=input("Enter the task you want to update: ")
-            
+            if update_task in task:
+                update_task=input("Enter the new name for the task: ")
+                index=task.index(update_task)
+                task[index]=update_task
+                print(f"Task '{update_task}' updated successfully!")
