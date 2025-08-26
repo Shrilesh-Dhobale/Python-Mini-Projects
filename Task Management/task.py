@@ -25,4 +25,8 @@ def task():
                 print(f"Task '{update_task}' not found!")
         elif option==3:
             delete_task=input("Enter the task you want to delete: ")
+            if delete_task in task:
+                task.remove(delete_task)
+                print(f"Task '{delete_task}' deleted successfully!")
+            
             
