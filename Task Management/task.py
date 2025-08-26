@@ -32,5 +32,8 @@ def task():
                 print(f"Task '{delete_task}' not found!")
         elif option==4:
             print("Total tasks={task}")
-            
-            
+            for i, t in enumerate(task, start=1):
+                print(f"{i}. {t}")
+        elif option==5:
+            print("Closing the Task Management..........")
+            break
