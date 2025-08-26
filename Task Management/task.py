@@ -37,3 +37,5 @@ def task():
         elif option==5:
             print("Closing the Task Management..........")
             break
+        else:
+            print("Invalid option! Please try again.")
