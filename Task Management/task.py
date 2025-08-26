@@ -28,5 +28,7 @@ def task():
             if delete_task in task:
                 task.remove(delete_task)
                 print(f"Task '{delete_task}' deleted successfully!")
+            else:   
+                print(f"Task '{delete_task}' not found!")
             
             
