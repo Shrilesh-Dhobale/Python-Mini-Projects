@@ -30,5 +30,7 @@ def task():
                 print(f"Task '{delete_task}' deleted successfully!")
             else:   
                 print(f"Task '{delete_task}' not found!")
+        elif option==4:
+            print("Total tasks={task}")
             
             
