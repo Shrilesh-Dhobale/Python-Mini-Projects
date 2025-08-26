@@ -39,3 +39,5 @@ def task():
             break
         else:
             print("Invalid option! Please try again.")
+
+task()
