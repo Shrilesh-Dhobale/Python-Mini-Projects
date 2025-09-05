@@ -7,3 +7,7 @@ for i in range(num_voters):
     print(f"\nVoter {i+1}")#Iterating over voters
     print("Candidates:",", ".join(candidates))
     vote=input("Choose your candidate: ")
+
+    if vote in candidates:
+        votes[vote]+=1
+        print(f"Vote casted for {vote} successfully!")
