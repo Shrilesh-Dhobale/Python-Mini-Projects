@@ -23,3 +23,5 @@ max_votes=max(votes.values())
 winners=[name for name, votes in votes.items() if votes==max_votes]#Cond to calculate winner
 if len(winners)==1:
     print(f"The winner is {winners[0]} with {max_votes} votes!")
+else:
+    print("It's a tie between:", ", ".join(winners), f"with {max_votes} votes each!")
