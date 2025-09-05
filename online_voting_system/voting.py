@@ -17,3 +17,5 @@ for i in range(num_voters):
 print("\n-----Voting Results-----")
 for candidate, count in votes.items():
     print(f"{candidate}: {count} votes")
+
+max_votes=max(votes.values())
