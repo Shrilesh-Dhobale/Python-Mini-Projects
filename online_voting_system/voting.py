@@ -13,3 +13,5 @@ for i in range(num_voters):
         print(f"Vote casted for {vote} successfully!")
     else:
         print("Invalid candidate! Vote not counted.")
+
+print("\n-----Voting Results-----")
