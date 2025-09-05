@@ -8,6 +8,8 @@ for i in range(num_voters):
     print("Candidates:",", ".join(candidates))
     vote=input("Choose your candidate: ")
 
-    if vote in candidates:
+    if vote in votes:#Inc vote of candidate whom u voted
         votes[vote]+=1
         print(f"Vote casted for {vote} successfully!")
+    else:
+        print("Invalid candidate! Vote not counted.")
