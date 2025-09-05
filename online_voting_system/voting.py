@@ -15,3 +15,5 @@ for i in range(num_voters):
         print("Invalid candidate! Vote not counted.")
 
 print("\n-----Voting Results-----")
+for candidate, count in votes.items():
+    print(f"{candidate}: {count} votes")
