@@ -19,3 +19,5 @@ for candidate, count in votes.items():
     print(f"{candidate}: {count} votes")
 
 max_votes=max(votes.values())
+
+winners=[name for name, votes in votes.items() if votes==max_votes]#Cond to calculate winner
